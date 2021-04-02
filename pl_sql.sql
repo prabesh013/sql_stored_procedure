@@ -185,7 +185,7 @@ BEGIN
     RETURN l_total_closed;
 END;
 /
-
+-- view for final select
 CREATE OR REPLACE VIEW vw_closed_side
 AS
     SELECT
